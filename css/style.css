@@ -521,6 +521,9 @@ body, html {
   .flex-direction-lg {
     flex-direction: column-reverse;
   }
+  .pb-50 {
+    padding-bottom: 50px;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .our-work {

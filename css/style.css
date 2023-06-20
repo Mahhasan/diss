@@ -714,7 +714,7 @@ body, html {
   font-family: "Poppins";
   margin-top: 1%;
 }
-.volunteer-banner-caption h1{
+.volunteer-banner-caption h2{
   font-size: 79px;
   line-height: 90px;
   color: #ffffff;
@@ -762,7 +762,7 @@ body, html {
     font-size: 13px;
     line-height: 14px;
   }
-  .volunteer-banner-caption h1{
+  .volunteer-banner-caption h2{
       font-size: 22px;
       line-height: 26px;
   }
@@ -787,7 +787,7 @@ body, html {
     font-size: 14px;
     line-height: 18px;
   }
-  .volunteer-banner-caption h1{
+  .volunteer-banner-caption h2{
       font-size: 25px;
       line-height: 30px;
   }
@@ -808,7 +808,7 @@ body, html {
   .volunteer-banner-caption {
     width: 92%;
   }
-  .volunteer-banner-caption h1{
+  .volunteer-banner-caption h2{
       font-size: 36px;
       line-height: 44px;
   }
@@ -827,7 +827,7 @@ body, html {
   .volunteer-banner-caption {
     width: 92%;
   }
-  .volunteer-banner-caption h1{
+  .volunteer-banner-caption h2{
       font-size: 42px;
       line-height: 50px;
   }
@@ -840,13 +840,13 @@ body, html {
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .volunteer-banner-caption h1{
+  .volunteer-banner-caption h2{
       font-size: 50px;
       line-height: 60px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  .volunteer-banner-caption h1{
+  .volunteer-banner-caption h2{
     font-size: 65px;
     line-height: 79px;
   }
@@ -1013,7 +1013,7 @@ body, html {
   margin-top: -30px;
   margin-bottom: 50px;
 }
-.footer-section h3 {
+.footer-section h5 {
   font-size: 20px;
   margin-bottom: 48px;
   color: #a6a6a6d4;

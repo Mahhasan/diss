@@ -94,6 +94,10 @@ body, html {
   border: 1px solid #25ab5c;
   color: #25ab5c;
 }
+.img-auto {
+  height: auto;
+  width: 100%;
+}
 /* for navigation */
 .navbar {
   padding-top: .156rem;
@@ -962,6 +966,10 @@ body, html {
   }
 }
 /* Footer Section */
+.footer-logo {
+  width: 197px;
+  height: 160px;
+}
 .footer {
   background-color: #232323;
   color: #ffffff;

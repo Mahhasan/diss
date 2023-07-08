@@ -1,0 +1,400 @@
+  @media (max-width: 319.98px) {
+    .banner-section .caption-big {
+      margin-top: 14px;
+      margin-bottom: 12px;
+      font-size: 24px;
+      line-height: 28px;
+    }
+    .banner-section .banner-button {
+      margin-top: 14px;
+    }
+    .banner-section .banner-caption {
+      left: 16px;
+    }
+    .banner-section .caption-small-one {
+      font-size: 14px;
+      line-height: 16px;
+    }
+    .banner-section .caption-small-two {
+      display: none;
+    }
+    .banner-section .banner-button .button {
+      padding: 10px 16px;
+      border-radius: 2px;
+    }
+    .volunteer-banner-caption {
+        width: 96%;
+      }
+      .volunteer-banner-caption .caption-small-one {
+        font-size: 13px;
+        line-height: 14px;
+      }
+      .volunteer-banner-caption h2{
+          font-size: 22px;
+          line-height: 26px;
+      }
+      .volunteer-block-button {
+        font-size: 14px;
+        padding: 14px 16px;
+      }
+      .volunteer {
+        padding: 70px 10px 0px 30px;
+      }
+      .volunteer-text {
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 700;
+      }
+      .news-section-header {
+        display: block;
+      }
+      .news-section-button-wrapper {
+        justify-content: flex-start;
+      }
+  }
+  @media (max-width: 333.98px) {
+    .partner-section {
+      padding: 30px;
+    }
+    .partner-logo-container {
+      justify-content: center;
+    }
+    .partner-logo {
+      padding: 5px;
+    }
+  }
+  @media (min-width: 334px) and (max-width: 767.98px) {
+    .partner-section {
+      padding: 50px;
+    }
+  }
+  @media (max-width: 480px) {
+    .section-header {
+      font-size: 30px;
+      line-height: 38px;
+    }
+    .border-button {
+      padding: 16px 18px;
+    }
+    .block-button {
+      padding: 16px 18px;
+    }
+    .news-section-button {
+      padding: 16px 18px;
+    }
+    .our-work .content-header {
+    font-size: 30px;
+    line-height: 38px;
+    }
+    .content-header {
+    font-size: 30px;
+    line-height: 38px;
+    }
+    .event-shedule {
+        display: block;
+      }
+      .event-buttons .margin-right{
+        margin-right: 20px;
+      }
+      .section-header {
+        font-size: 30px;
+        line-height: 38px;
+      }
+      .border-button {
+        padding: 16px 18px;
+      }
+      .block-button {
+        padding: 16px 18px;
+      }
+      .news-section-button {
+        padding: 16px 18px;
+      }
+  }
+  @media (max-width: 767.98px) {
+    .navbar {
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+    /* .searchbar {
+        width: 100%;
+        max-width: 250px;
+        margin-top: -8px;
+    } */
+    .navbar-light .navbar-nav .nav-link {
+      padding-left: 0px;
+    }
+    .flex-direction-md {
+        flex-direction: column-reverse;
+    }
+    .border-button {
+        margin-bottom: 50px;
+    }
+    .event-content {
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+      .footer-section {
+        padding-left: 25px;
+      }
+      .footer-section-header {
+        margin-top: -50px;
+        margin-bottom: 50px;
+      }
+      .footer-section ul li {
+        margin-bottom: 20px;
+        margin-top: 20px;
+      }
+  }
+  @media (max-width: 991.98px) {
+    .about-content {
+      padding-top: 20px;
+      padding-left: 30px;
+      margin-bottom: 25px;
+    }
+    .our-work {
+        padding: 70px 30px 0px 30px;
+    }
+    .program-padding {
+        padding: 70px 30px 0px 30px;
+    }
+    .our-work .content-header {
+        padding-bottom: 30px;
+    }
+    .border-button {
+        margin-bottom: 50px;
+    }
+    .our-work .content-details {
+        text-align: justify;
+    }
+    .flex-direction-lg {
+        flex-direction: column-reverse;
+    }
+    .pb-50 {
+        padding-bottom: 50px;
+    }
+    .event-description {
+        text-align: justify;
+      }
+  }
+  @media (min-width: 320px) and (max-width: 479.98px) {
+    .banner-section .caption-big {
+      margin-top: 18px;
+      margin-bottom: 12px;
+      font-size: 26px;
+      line-height: 30px;
+    }
+    .banner-section .banner-button {
+      margin-top: 14px;
+    }
+    .banner-section .banner-caption {
+      left: 16px;
+    }
+    .banner-section .caption-small-one {
+      font-size: 14px;
+      line-height: 16px;
+    }
+    .banner-section .caption-small-two {
+      font-size: 14px;
+      line-height: 16px;
+    }
+    .banner-section .banner-button .button {
+      padding: 10px 16px;
+      border-radius: 2px;
+    }
+    .volunteer-banner-caption {
+        width: 95%;
+      }
+      .volunteer-banner-caption .caption-small-one {
+        font-size: 14px;
+        line-height: 18px;
+      }
+      .volunteer-banner-caption h2{
+          font-size: 25px;
+          line-height: 30px;
+      }
+      .volunteer-block-button {
+        font-size: 14px;
+        padding: 14px 16px;
+        }
+      .volunteer {
+        padding: 70px 10px 0px 30px;
+      }
+      .volunteer-text {
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 700;
+      }
+  }
+  @media (min-width: 480px) and (max-width: 575.98px) {
+    .banner-section .caption-big {
+      margin-top: 20px;
+      margin-bottom: 15px;
+      font-size: 36px;
+      line-height: 40px;
+    }
+    .banner-section .banner-button {
+      margin-top: 18px;
+    }
+    .banner-section .banner-caption {
+      left: 16px;
+    }
+    .banner-section .caption-small-two {
+      line-height: 17px;
+    }
+    .banner-section .banner-button .button {
+      padding: 11px 20px;
+      border-radius: 2px;
+    }
+    .volunteer-banner-caption {
+        width: 92%;
+      }
+      .volunteer-banner-caption h2{
+          font-size: 36px;
+          line-height: 44px;
+      }
+      .volunteer-block-button{
+        font-size: 14px;
+        }
+      .volunteer {
+        padding: 70px 20px 0px 30px;
+      }
+      .volunteer-text {
+        font-size: 35px;
+        line-height: 48px;
+      }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .banner-section .caption-big {
+      margin-top: 20px;
+      margin-bottom: 15px;
+      font-size: 44px;
+      line-height: 52px;
+    }
+    .banner-section .banner-button {
+      margin-top: 24px;
+    }
+    .banner-section .banner-caption {
+      left: 50px;
+    }
+    .banner-section .caption-small-two {
+      line-height: 22px;
+    }
+    .banner-section .banner-button .button {
+      padding: 14px 20px;
+      border-radius: 2px;
+    }
+    .volunteer-banner-caption {
+        width: 92%;
+      }
+      .volunteer-banner-caption h2{
+          font-size: 42px;
+          line-height: 50px;
+      }
+      .volunteer {
+        padding: 70px 10px 0px 30px;
+      }
+      .volunteer-text {
+        font-size: 35px;
+        line-height: 48px;
+      }
+  }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    /* .searchbar {
+      width: 100%;
+      max-width: 500px;
+      margin-top: -8px;
+    } */
+    .navbar-light .navbar-nav .nav-link {
+        padding-left: 0px;
+    }
+    .banner-section .caption-big {
+      margin-bottom: 24px;
+      font-size: 60px;
+      line-height: 74px;
+    }
+    .banner-section .banner-caption {
+      left: 50px;
+    }
+    .banner-section .caption-small-two {
+      line-height: 18px;
+    }
+    .banner-section .banner-button .button {
+      padding: 18px 26px;
+      border-radius: 2px;
+    }
+    .volunteer-banner-caption h2{
+        font-size: 50px;
+        line-height: 60px;
+    }
+  }
+  @media(max-width: 1199.98px) {
+    .news-container {
+      padding: 25px 15px 0px 15px;
+    }
+    .news-section-header .section-header{
+      margin-top: 8px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .banner-section .banner-caption .line-break {
+      display: block;
+    }
+    .banner-section .caption-big {
+      margin-bottom: 24px;
+      font-size: 60px;
+      line-height: 74px;
+    }
+    .banner-section .banner-caption {
+      left: 50px;
+    }
+    .banner-section .caption-small-two {
+      line-height: 24px;
+    }
+    .about-content {
+    padding-left: 70px;
+    }
+    .about-categorie {
+    padding: 5px 0px;
+    }
+    .our-work {
+    padding: 40px 24px 0px 30px;
+    }
+    .program-padding {
+    padding: 70px 30px 0px 30px;
+    }
+    .our-work .content-header {
+    padding-bottom: 18px;
+    }
+    .border-button {
+    margin-top: 10px;
+    }
+    .volunteer-banner-caption h2{
+        font-size: 65px;
+        line-height: 79px;
+      }
+      .volunteer {
+        padding: 70px 10px 0px 30px;
+      }
+      .volunteer-text {
+        font-size: 35px;
+        line-height: 48px;
+      }
+  }
+  @media (min-width: 1200px) {
+    .banner-section .banner-caption .line-break {
+      display: block;
+    }
+  }
+  @media (min-width: 1240px) {
+    .border-button {
+      margin-bottom: 10px;
+    }
+  }
+  @media (min-width: 1200px) and (max-width: 1360px) {
+    .volunteer {
+      padding-top: 99px;
+    }
+    .volunteer-text {
+      font-size: 38px;
+      line-height: 48px;
+    }
+  }

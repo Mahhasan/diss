@@ -1,4 +1,7 @@
+  /* CSS for responsive design */
+
   @media (max-width: 319.98px) {
+    /* CSS for banner section */
     .banner-section .caption-big {
       margin-top: 14px;
       margin-bottom: 12px;
@@ -19,40 +22,42 @@
       display: none;
     }
     .banner-section .banner-button .button {
-      padding: 10px 16px;
-      border-radius: 2px;
+      padding: 4px 16px;
     }
+    /* CSS for volunteer section */
     .volunteer-banner-caption {
         width: 96%;
-      }
-      .volunteer-banner-caption .caption-small-one {
-        font-size: 13px;
-        line-height: 14px;
-      }
-      .volunteer-banner-caption h2{
-          font-size: 22px;
-          line-height: 26px;
-      }
-      .volunteer-block-button {
-        font-size: 14px;
-        padding: 14px 16px;
-      }
-      .volunteer {
-        padding: 70px 10px 0px 30px;
-      }
-      .volunteer-text {
-        font-size: 30px;
-        line-height: 40px;
-        font-weight: 700;
-      }
-      .news-section-header {
-        display: block;
-      }
-      .news-section-button-wrapper {
-        justify-content: flex-start;
-      }
+    }
+    .volunteer-banner-caption .caption-small-one {
+      font-size: 13px;
+      line-height: 14px;
+    }
+    .volunteer-banner-caption h2{
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .volunteer-block-button {
+      font-size: 14px;
+      padding: 14px 16px;
+    }
+    .volunteer {
+      padding: 70px 10px 0px 30px;
+    }
+    .volunteer-text {
+      font-size: 30px;
+      line-height: 40px;
+      font-weight: 700;
+    }
+    /* CSS for news section */
+    .news-section-header {
+      display: block;
+    }
+    .news-section-button-wrapper {
+      justify-content: flex-start;
+    }
   }
   @media (max-width: 333.98px) {
+    /* CSS for partner section */
     .partner-section {
       padding: 30px;
     }
@@ -64,11 +69,12 @@
     }
   }
   @media (min-width: 334px) and (max-width: 767.98px) {
+    /* CSS for partner section */
     .partner-section {
       padding: 50px;
     }
   }
-  @media (max-width: 480px) {
+  @media (max-width: 479.98px) {
     .section-header {
       font-size: 30px;
       line-height: 38px;
@@ -79,9 +85,11 @@
     .block-button {
       padding: 16px 18px;
     }
+    /* CSS for news section */
     .news-section-button {
       padding: 16px 18px;
     }
+    /* CSS for work section */
     .our-work .content-header {
     font-size: 30px;
     line-height: 38px;
@@ -90,27 +98,16 @@
     font-size: 30px;
     line-height: 38px;
     }
+    /* CSS for event section */
     .event-shedule {
-        display: block;
-      }
-      .event-buttons .margin-right{
-        margin-right: 20px;
-      }
-      .section-header {
-        font-size: 30px;
-        line-height: 38px;
-      }
-      .border-button {
-        padding: 16px 18px;
-      }
-      .block-button {
-        padding: 16px 18px;
-      }
-      .news-section-button {
-        padding: 16px 18px;
-      }
+      display: block;
+    }
+    .event-buttons .margin-right{
+      margin-right: 20px;
+    }
   }
   @media (max-width: 767.98px) {
+    /* CSS for navigation section */
     .navbar {
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     }
@@ -128,28 +125,40 @@
     .border-button {
         margin-bottom: 50px;
     }
+    /* CSS for event section */
     .event-content {
-        padding-left: 0px;
-        padding-right: 0px;
-      }
-      .footer-section {
-        padding-left: 25px;
-      }
-      .footer-section-header {
-        margin-top: -50px;
-        margin-bottom: 50px;
-      }
-      .footer-section ul li {
-        margin-bottom: 20px;
-        margin-top: 20px;
-      }
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    /* CSS for footer section */
+    .footer {
+      padding-left: 25px;
+    }
+    .footer-grid .important-link1 {
+      padding-left: 0px;
+    }
+    .footer-section-header {
+      margin-top: -50px;
+      margin-bottom: 50px;
+    }
+    .footer-grid ul li {
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+    .footer-grid h5 {
+      margin-bottom: 32px;
+    }.footer {
+      gap: 36px;
+    }
   }
   @media (max-width: 991.98px) {
+    /* CSS for about section */
     .about-content {
       padding-top: 20px;
       padding-left: 30px;
       margin-bottom: 25px;
     }
+    /* CSS for work section */
     .our-work {
         padding: 70px 30px 0px 30px;
     }
@@ -162,7 +171,7 @@
     .border-button {
         margin-bottom: 50px;
     }
-    .our-work .content-details {
+    .our-work p {
         text-align: justify;
     }
     .flex-direction-lg {
@@ -171,11 +180,13 @@
     .pb-50 {
         padding-bottom: 50px;
     }
+    /* CSS for event section */
     .event-description {
         text-align: justify;
       }
   }
   @media (min-width: 320px) and (max-width: 479.98px) {
+    /* CSS for banner section */
     .banner-section .caption-big {
       margin-top: 18px;
       margin-bottom: 12px;
@@ -197,34 +208,35 @@
       line-height: 16px;
     }
     .banner-section .banner-button .button {
-      padding: 10px 16px;
-      border-radius: 2px;
+      padding: 4px 16px;
     }
+    /* CSS for volunteer section */
     .volunteer-banner-caption {
-        width: 95%;
+      width: 95%;
+    }
+    .volunteer-banner-caption .caption-small-one {
+      font-size: 14px;
+      line-height: 18px;
+    }
+    .volunteer-banner-caption h2{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .volunteer-block-button {
+      font-size: 14px;
+      padding: 14px 16px;
       }
-      .volunteer-banner-caption .caption-small-one {
-        font-size: 14px;
-        line-height: 18px;
-      }
-      .volunteer-banner-caption h2{
-          font-size: 25px;
-          line-height: 30px;
-      }
-      .volunteer-block-button {
-        font-size: 14px;
-        padding: 14px 16px;
-        }
-      .volunteer {
-        padding: 70px 10px 0px 30px;
-      }
-      .volunteer-text {
-        font-size: 30px;
-        line-height: 40px;
-        font-weight: 700;
-      }
+    .volunteer {
+      padding: 70px 10px 0px 30px;
+    }
+    .volunteer-text {
+      font-size: 30px;
+      line-height: 40px;
+      font-weight: 700;
+    }
   }
   @media (min-width: 480px) and (max-width: 575.98px) {
+    /* CSS for banner section */
     .banner-section .caption-big {
       margin-top: 20px;
       margin-bottom: 15px;
@@ -241,28 +253,29 @@
       line-height: 17px;
     }
     .banner-section .banner-button .button {
-      padding: 11px 20px;
-      border-radius: 2px;
+      padding: 10px 24px;
     }
+    /* CSS for volunteer section */
     .volunteer-banner-caption {
-        width: 92%;
+      width: 92%;
+    }
+    .volunteer-banner-caption h2{
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .volunteer-block-button{
+      font-size: 14px;
       }
-      .volunteer-banner-caption h2{
-          font-size: 36px;
-          line-height: 44px;
-      }
-      .volunteer-block-button{
-        font-size: 14px;
-        }
-      .volunteer {
-        padding: 70px 20px 0px 30px;
-      }
-      .volunteer-text {
-        font-size: 35px;
-        line-height: 48px;
-      }
+    .volunteer {
+      padding: 70px 20px 0px 30px;
+    }
+    .volunteer-text {
+      font-size: 35px;
+      line-height: 48px;
+    }
   }
   @media (min-width: 576px) and (max-width: 767.98px) {
+    /* CSS for banner section */
     .banner-section .caption-big {
       margin-top: 20px;
       margin-bottom: 15px;
@@ -279,25 +292,26 @@
       line-height: 22px;
     }
     .banner-section .banner-button .button {
-      padding: 14px 20px;
-      border-radius: 2px;
+      padding: 12px 32px;
     }
+    /* CSS for volunteer section */
     .volunteer-banner-caption {
-        width: 92%;
-      }
-      .volunteer-banner-caption h2{
-          font-size: 42px;
-          line-height: 50px;
-      }
-      .volunteer {
-        padding: 70px 10px 0px 30px;
-      }
-      .volunteer-text {
-        font-size: 35px;
-        line-height: 48px;
-      }
+      width: 92%;
+    }
+    .volunteer-banner-caption h2{
+      font-size: 42px;
+      line-height: 50px;
+    }
+    .volunteer {
+      padding: 70px 10px 0px 30px;
+    }
+    .volunteer-text {
+      font-size: 35px;
+      line-height: 48px;
+    }
   }
   @media (min-width: 768px) and (max-width: 991.98px) {
+    /* CSS for navbar section */
     /* .searchbar {
       width: 100%;
       max-width: 500px;
@@ -306,10 +320,12 @@
     .navbar-light .navbar-nav .nav-link {
         padding-left: 0px;
     }
+    /* CSS for banner section */
     .banner-section .caption-big {
       margin-bottom: 24px;
       font-size: 60px;
       line-height: 74px;
+      max-width: 634px;
     }
     .banner-section .banner-caption {
       left: 50px;
@@ -317,16 +333,14 @@
     .banner-section .caption-small-two {
       line-height: 18px;
     }
-    .banner-section .banner-button .button {
-      padding: 18px 26px;
-      border-radius: 2px;
-    }
+    /* CSS for volunteer section */
     .volunteer-banner-caption h2{
         font-size: 50px;
         line-height: 60px;
     }
   }
   @media(max-width: 1199.98px) {
+    /* CSS for news section */
     .news-container {
       padding: 25px 15px 0px 15px;
     }
@@ -335,6 +349,7 @@
     }
   }
   @media (min-width: 992px) and (max-width: 1199.98px) {
+    /* CSS for banner section */
     .banner-section .banner-caption .line-break {
       display: block;
     }
@@ -349,12 +364,14 @@
     .banner-section .caption-small-two {
       line-height: 24px;
     }
+    /* CSS for about section */
     .about-content {
     padding-left: 70px;
     }
     .about-categorie {
     padding: 5px 0px;
     }
+    /* CSS for work section */
     .our-work {
     padding: 40px 24px 0px 30px;
     }
@@ -367,19 +384,21 @@
     .border-button {
     margin-top: 10px;
     }
+    /* CSS for volunteer section */
     .volunteer-banner-caption h2{
-        font-size: 65px;
-        line-height: 79px;
-      }
-      .volunteer {
-        padding: 70px 10px 0px 30px;
-      }
-      .volunteer-text {
-        font-size: 35px;
-        line-height: 48px;
-      }
+      font-size: 65px;
+      line-height: 79px;
+    }
+    .volunteer {
+      padding: 70px 10px 0px 30px;
+    }
+    .volunteer-text {
+      font-size: 35px;
+      line-height: 48px;
+    }
   }
   @media (min-width: 1200px) {
+    /* CSS for banner section */
     .banner-section .banner-caption .line-break {
       display: block;
     }
@@ -390,6 +409,7 @@
     }
   }
   @media (min-width: 1200px) and (max-width: 1360px) {
+    /* CSS for volunteer section */
     .volunteer {
       padding-top: 99px;
     }

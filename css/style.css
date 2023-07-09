@@ -1,3 +1,4 @@
+/* Common CSS */
 body, html {
   height: 100%;
   margin: 0;
@@ -55,6 +56,7 @@ body, html {
   border: none;
   padding: 19px 28px;
   margin-bottom: 25px;
+  transition: color 0.3s ease-in-out;
 }
 .block-button:hover{
   color: #ffbc42;
@@ -74,6 +76,7 @@ body, html {
   padding: 18px 28px;
   text-decoration: none;
   font-family: "Poppins";
+  transition: border 0.3s ease-in-out, color 0.3s ease-in-out;
   }
 .border-button:hover {
   border: 1px solid #25ab5c;
@@ -83,7 +86,7 @@ body, html {
   height: auto;
   width: 100%;
 }
-/* for navigation */
+/*CSS for navigation Section*/
 .navbar-brand img {
   max-width: 44px;
   max-height: 49px;
@@ -95,6 +98,7 @@ body, html {
   padding-right: 26px;
   padding-left: 26px;
   font-family: "Poppins";
+  transition: color 0.3s ease-in-out;
 }
 .navbar-light .navbar-nav .nav-link:hover {
   color: #ffbc42;
@@ -165,32 +169,32 @@ body, html {
 .searchbar-open {
   width: 250px;
 } */
-.nav-link .search-icon {
+.nav-link .search-icon { /*For searchbar*/
   width: 20.45px;
   height: 20.45px;
   margin-right: 1px;
   margin-left: 1px;
 }
-.nav-link .grid2 {
+.nav-link .grid2 { 
   width: 29px;
   height: 29px;
   margin-right: -26px;
   margin-left: -3px;
 }
-/* for Banner */
+/*CSS for Banner Section*/
 .banner-section {
   position: relative;
   display: inline-block;
   width: 100%;
   /* margin-top: 79px;*/      /* For sticky navbar */
 }
-.banner-section img {
+.banner-section img { /*For banner background image*/
   display: block;
   width: 100%;
   height: auto;
   min-height: 226px;
 }
-.gradient-overlay {
+.gradient-overlay { /*For banner gradient overlay*/
   position: absolute;
   top: 0;
   left: 0;
@@ -198,7 +202,7 @@ body, html {
   height: 100%;
   background-image: linear-gradient(90deg, rgba(29,30,99,0.96) 0%, rgba(23,24,74,0) 100%);
 }
-.banner-section .banner-caption {
+.banner-section .banner-caption { /*For banner caption*/
   position: absolute;
   left: 88px;
   padding: 20px;
@@ -221,6 +225,7 @@ body, html {
   color: #fafafa;
   font-weight: 400;
   font-family: "Poppins";
+  max-width: 442px;
 }
 .banner-section .caption-big {
   margin-top: 30px;
@@ -230,36 +235,38 @@ body, html {
   color: #ffffff;
   font-weight: 400;
   font-family: "Fredericka the Great";
+  max-width: 587px;
 }
 .banner-section .banner-button {
   margin-top: 50px;
 }
 .banner-section .banner-button .button {
-  padding: 24px 40px;
+  padding: 16.5px 40px;
   border-radius: 2px;
   background-color: #ffbc42;
   font-size: 16px;
-  line-height: 14px;
+  line-height: 28px;
   color: #232323;
   font-weight: 400;
   font-family: "Poppins";
+  transition: color 0.3s ease-in-out;
 }
 .banner-section .banner-button .button:hover {
   color: #ffffff;
 }
-/* about section */
+/*CSS for about section */
 .about-image-container {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
-.about-image-container img {
+.about-image-container img { /*For background image */
   display: block;
   width: 100%;
   height: auto;
 }
-.about-overlay-image {
+.about-overlay-image { /*For overlay image */
   position: absolute;
   top: 49%;
   right: 0;
@@ -301,7 +308,7 @@ body, html {
   max-width: 61px;
   max-height: 61px;
 }
-/* Work section */
+/*CSS for Work section */
 .our-work {
   padding: 100px 71px 0px 100px;
 }
@@ -322,7 +329,7 @@ body, html {
   padding-bottom: 50px;
   font-family: "Poppins";
 }
-.our-work .content-details {
+.our-work p {
   font-family: "Poppins";
   color: #ffffff;
   font-size: 16px;
@@ -330,7 +337,7 @@ body, html {
   color: #ffffff;
   font-weight: 400;
 }
-/* Event Section */
+/*CSS for Event Section */
 .event-buttons {
   margin-top: 50px;
 }
@@ -343,13 +350,12 @@ body, html {
   align-items: center;
   justify-content: flex-end;
 }
-.event-image-container img {
+.event-image-container img { /*background image */
   display: block;
   width: 100%;
   height: auto;
 }
-
-.event-overlay-image {
+.event-overlay-image { /*For overlay image */
   position: absolute;
   top: 50%;
   left: 0;
@@ -388,14 +394,14 @@ body, html {
   display: flex;
   justify-content: space-between;
 }
-.event-shedule-inner {
+.event-shedule p {
   font-size: 16px;
   line-height: 28px;
   color: #232323;
   font-weight: 500;
   font-family: "Poppins";
 }
-/* Partner Section */
+/*CSS for Partner Section */
 .partner-section {
   padding: 50px 100px 115px 100px;
 
@@ -418,7 +424,7 @@ body, html {
   height: auto;
   padding-right: 5px;
 }
-/* volunteer banner */
+/*CSS for volunteer banner */
 .volunteer-banner-section {
   position: relative;
   display: inline-block;
@@ -481,6 +487,7 @@ body, html {
   border: none;
   padding: 19px 28px;
   margin-bottom: 2.5%;
+  transition: color 0.3s ease-in-out;
 }
 .volunteer-block-button:hover {
   color: #232323;
@@ -496,25 +503,26 @@ body, html {
   padding-bottom: 4%;
   font-family: "Poppins";
 }
+/*CSS for news Section */
 .news-background-image {
-    background-image: url('../img/bg_img_3.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    /* background-size: cover; */
-    height: 100%;
-    width: 100%;
+  background-image: url('../img/bg_img_3.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  height: 100%;
+  width: 100%;
 }
 .news-container {
   padding: 25px 15px 98px 15px;
 }
-.card {
+.news-section .news-container .card {
   margin-bottom: 30px;
   border-radius: 2px;
-  padding: .7rem;
+  padding: 12px;
   filter: drop-shadow(0 0 6.5px rgba(0,0,0,0.1));
   border: none;
 }
-.card .card-body .card-text {
+.news-section .news-container .card .card-body p {
   font-size: 18px;
   line-height: 30px;
   color: #333333;
@@ -522,15 +530,14 @@ body, html {
   font-family: "Poppins";
   text-align: center;
 }
-.card .card-body .learn-more {
+.news-section .news-container .card .card-body .learn-more {
   display: flex;
   align-items: center;
   justify-content: center;
   color: #333333;
   text-decoration: none;
 }
-
-.card .card-body .learn-more i {
+.news-section .news-container .card .card-body .learn-more i {
   font-size: 29px;
   color: #ffbc42;
   margin-left: 10px;
@@ -558,12 +565,13 @@ body, html {
   outline: 0;
   text-decoration: none;
   font-family: "Poppins";
+  transition: border 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 .news-section-button:hover {
   color: #ffbc42;
   border: 1px solid #ffbc42;
 }
-/* Footer Section */
+/*CSS for Footer Section */
 .footer-logo {
   width: 197px;
   height: 160px;
@@ -571,18 +579,20 @@ body, html {
 .footer {
   background-color: #232323;
   color: #ffffff;
-  padding: 20px;
+  padding-left: 113px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));  /* functions are used to create a flexible grid with a minimum column width of 250 pixels and a maximum column width of 1 fraction unit */
+  gap: 79px;
   padding-bottom: 75px;
   padding-top: 100px;
 }
-.footer-section {
-    padding-left: 90px;
+.footer-grid .important-link1 {
+  padding-left: 49px;
 }
 .social-contact {
   padding-bottom: 15px;
+}
+.social-contact p {
   color: #eaeaea;
   font-size: 16px;
   font-weight: 500;
@@ -598,6 +608,7 @@ body, html {
 .social-contact a {
   text-decoration: none;
   color: inherit;
+  transition: color 0.3s ease-in-out;
 }
 .social-contact a:hover {
   color: #ffbc42;
@@ -611,30 +622,31 @@ body, html {
   margin-top: -30px;
   margin-bottom: 50px;
 }
-.footer-section h5 {
+.footer-grid h5 {
   font-size: 20px;
   margin-bottom: 48px;
   color: #a6a6a6d4;
   font-weight: 500;
   font-family: "Poppins";
 }
-.footer-section ul {
+.footer-grid ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-.footer-section ul li {
+.footer-grid ul li {
   margin-bottom: 25px;
   margin-top: 25px;
 }
-.footer-section ul li a{
+.footer-grid ul li a{
   text-decoration: none;
   color: #eaeaea;
   font-size: 16px;
   font-weight: 500;
   font-family: "Poppins";
+  transition: color 0.3s ease-in-out;
 }
-.footer-section ul li a:hover{
+.footer-grid ul li a:hover{
   color: #ffbc42;
 }
 .footer-bottom {
